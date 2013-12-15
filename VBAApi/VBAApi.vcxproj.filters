@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GBA">
+      <UniqueIdentifier>{d8888300-3777-41cb-bde5-0e62a9dd815e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GB">
+      <UniqueIdentifier>{4fe4eb0c-a726-499a-9749-7bc0907cd5c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GB APU">
+      <UniqueIdentifier>{81826a8e-64ad-4fad-9e85-7f14774e5688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functionality">
+      <UniqueIdentifier>{ffb7b71f-e432-49fd-b8bd-e64a4def780e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Linking">
+      <UniqueIdentifier>{5d3e731f-9432-4849-9197-7a6087109657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VBA">
+      <UniqueIdentifier>{e0a7dd65-1853-47f9-be59-3d22a6af9016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{2a3ba5c2-d8e1-4dc2-842d-0a4f57998ddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pixel Filter">
+      <UniqueIdentifier>{83f3a394-2814-4dbd-a79e-d6af64182819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pixel Filter\HQ">
+      <UniqueIdentifier>{7b1ae06b-7497-4898-833a-ff94c9affca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pixel Filter\HQ\3x_4x_asm">
+      <UniqueIdentifier>{c06312c2-36df-4f40-9627-9188b0da02ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Video">
+      <UniqueIdentifier>{adf0ab01-f6ea-4320-ad9c-e06c46f02530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{19c4624c-314f-4e90-9832-89f68c826b6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gba\agbprint.h">
+      <Filter>GBA</Filter>
+    </ClInclude>
+    <ClInclude Include="gba\bios.h">
+      <Filter>GBA</Filter>
+    </ClInclude>
+    <ClInclude Include="gba\EEprom.h">
+      <Filter>GBA</Filter>
+    </ClInclude>
+    <ClInclude Include="gba\elf.h">
+      <Filter>GBA</Filter>
+    </ClInclude>
+    <ClInclude Include="gba\Flash.h">
+      <Filter>GBA</Filter>
+    </ClInclude>
+    <ClInclude Include="gba\GBA.h">
+      <Filter>GBA</Filter>
+    </ClInclude>
+    <ClInclude Include="gba\GBAcpu.h">
+      <Filter>GBA</Filter>
+    </ClInclude>
+    <ClInclude Include="gba\gbafilter.h">
+      <Filter>GBA</Filter>
+    </ClInclude>
+    <ClInclude Include="gba\GBAGfx.h">
+      <Filter>GBA</Filter>
+    </ClInclude>
+    <ClInclude Include="gba\GBAinline.h">
+      <Filter>GBA</Filter>
+    </ClInclude>
+    <ClInclude Include="gba\Globals.h">
+      <Filter>GBA</Filter>
+    </ClInclude>
+    <ClInclude Include="gba\RTC.h">
+      <Filter>GBA</Filter>
+    </ClInclude>
+    <ClInclude Include="gba\Sound.h">
+      <Filter>GBA</Filter>
+    </ClInclude>
+    <ClInclude Include="gba\Sram.h">
+      <Filter>GBA</Filter>
+    </ClInclude>
+    <ClInclude Include="common\memgzio.h">
+      <Filter>Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Port.h">
+      <Filter>Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="common\RingBuffer.h">
+      <Filter>Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Types.h">
+      <Filter>Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="gb\gb.h">
+      <Filter>GB</Filter>
+    </ClInclude>
+    <ClInclude Include="gb\gbCheats.h">
+      <Filter>GB</Filter>
+    </ClInclude>
+    <ClInclude Include="gb\gbCodes.h">
+      <Filter>GB</Filter>
+    </ClInclude>
+    <ClInclude Include="gb\gbCodesCB.h">
+      <Filter>GB</Filter>
+    </ClInclude>
+    <ClInclude Include="gb\gbGlobals.h">
+      <Filter>GB</Filter>
+    </ClInclude>
+    <ClInclude Include="gb\gbMemory.h">
+      <Filter>GB</Filter>
+    </ClInclude>
+    <ClInclude Include="gb\gbPrinter.h">
+      <Filter>GB</Filter>
+    </ClInclude>
+    <ClInclude Include="gb\gbSGB.h">
+      <Filter>GB</Filter>
+    </ClInclude>
+    <ClInclude Include="gb\gbSound.h">
+      <Filter>GB</Filter>
+    </ClInclude>
+    <ClInclude Include="apu\blargg_common.h">
+      <Filter>GB APU</Filter>
+    </ClInclude>
+    <ClInclude Include="apu\blargg_config.h">
+      <Filter>GB APU</Filter>
+    </ClInclude>
+    <ClInclude Include="apu\blargg_source.h">
+      <Filter>GB APU</Filter>
+    </ClInclude>
+    <ClInclude Include="apu\Blip_Buffer.h">
+      <Filter>GB APU</Filter>
+    </ClInclude>
+    <ClInclude Include="apu\Effects_Buffer.h">
+      <Filter>GB APU</Filter>
+    </ClInclude>
+    <ClInclude Include="apu\Gb_Apu.h">
+      <Filter>GB APU</Filter>
+    </ClInclude>
+    <ClInclude Include="apu\Gb_Oscs.h">
+      <Filter>GB APU</Filter>
+    </ClInclude>
+    <ClInclude Include="apu\Multi_Buffer.h">
+      <Filter>GB APU</Filter>
+    </ClInclude>
+    <ClInclude Include="gba\Cheats.h">
+      <Filter>Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="gba\CheatSearch.h">
+      <Filter>Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="gba\armdis.h">
+      <Filter>Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="NLS.h">
+      <Filter>Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Patch.h">
+      <Filter>Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>GBA</Filter>
+    </ClInclude>
+    <ClInclude Include="gba\GBALink.h">
+      <Filter>Linking</Filter>
+    </ClInclude>
+    <ClInclude Include="gba\GBASockClient.h">
+      <Filter>Linking</Filter>
+    </ClInclude>
+    <ClInclude Include="vba\VBA.h">
+      <Filter>VBA</Filter>
+    </ClInclude>
+    <ClInclude Include="filters\hq2x.h">
+      <Filter>Pixel Filter\HQ</Filter>
+    </ClInclude>
+    <ClInclude Include="filters\interp.h">
+      <Filter>Pixel Filter\HQ</Filter>
+    </ClInclude>
+    <ClInclude Include="filters\lq2x.h">
+      <Filter>Pixel Filter\HQ</Filter>
+    </ClInclude>
+    <ClInclude Include="vba\Display.h">
+      <Filter>VBA</Filter>
+    </ClInclude>
+    <ClInclude Include="input\Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gba\agbprint.cpp">
+      <Filter>GBA</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\bios.cpp">
+      <Filter>GBA</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\EEprom.cpp">
+      <Filter>GBA</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\elf.cpp">
+      <Filter>GBA</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\Flash.cpp">
+      <Filter>GBA</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\GBA.cpp">
+      <Filter>GBA</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\GBA-arm.cpp">
+      <Filter>GBA</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\gbafilter.cpp">
+      <Filter>GBA</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\GBAGfx.cpp">
+      <Filter>GBA</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\GBA-thumb.cpp">
+      <Filter>GBA</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\Globals.cpp">
+      <Filter>GBA</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\Mode0.cpp">
+      <Filter>GBA</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\Mode1.cpp">
+      <Filter>GBA</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\Mode2.cpp">
+      <Filter>GBA</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\Mode3.cpp">
+      <Filter>GBA</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\Mode4.cpp">
+      <Filter>GBA</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\Mode5.cpp">
+      <Filter>GBA</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\RTC.cpp">
+      <Filter>GBA</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\Sound.cpp">
+      <Filter>GBA</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\Sram.cpp">
+      <Filter>GBA</Filter>
+    </ClCompile>
+    <ClCompile Include="common\memgzio.c">
+      <Filter>Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="gb\GB.cpp">
+      <Filter>GB</Filter>
+    </ClCompile>
+    <ClCompile Include="gb\gbCheats.cpp">
+      <Filter>GB</Filter>
+    </ClCompile>
+    <ClCompile Include="gb\gbDis.cpp">
+      <Filter>GB</Filter>
+    </ClCompile>
+    <ClCompile Include="gb\gbGfx.cpp">
+      <Filter>GB</Filter>
+    </ClCompile>
+    <ClCompile Include="gb\gbGlobals.cpp">
+      <Filter>GB</Filter>
+    </ClCompile>
+    <ClCompile Include="gb\gbMemory.cpp">
+      <Filter>GB</Filter>
+    </ClCompile>
+    <ClCompile Include="gb\gbPrinter.cpp">
+      <Filter>GB</Filter>
+    </ClCompile>
+    <ClCompile Include="gb\gbSGB.cpp">
+      <Filter>GB</Filter>
+    </ClCompile>
+    <ClCompile Include="gb\gbSound.cpp">
+      <Filter>GB</Filter>
+    </ClCompile>
+    <ClCompile Include="apu\Blip_Buffer.cpp">
+      <Filter>GB APU</Filter>
+    </ClCompile>
+    <ClCompile Include="apu\Effects_Buffer.cpp">
+      <Filter>GB APU</Filter>
+    </ClCompile>
+    <ClCompile Include="apu\Gb_Apu.cpp">
+      <Filter>GB APU</Filter>
+    </ClCompile>
+    <ClCompile Include="apu\Gb_Apu_State.cpp">
+      <Filter>GB APU</Filter>
+    </ClCompile>
+    <ClCompile Include="apu\Gb_Oscs.cpp">
+      <Filter>GB APU</Filter>
+    </ClCompile>
+    <ClCompile Include="apu\Multi_Buffer.cpp">
+      <Filter>GB APU</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\Cheats.cpp">
+      <Filter>Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\CheatSearch.cpp">
+      <Filter>Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\armdis.cpp">
+      <Filter>Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Patch.cpp">
+      <Filter>Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\GBALink.cpp">
+      <Filter>Linking</Filter>
+    </ClCompile>
+    <ClCompile Include="gba\GBASockClient.cpp">
+      <Filter>Linking</Filter>
+    </ClCompile>
+    <ClCompile Include="vba\VBA.cpp">
+      <Filter>VBA</Filter>
+    </ClCompile>
+    <ClCompile Include="vba\VBAFileHandle.cpp">
+      <Filter>VBA</Filter>
+    </ClCompile>
+    <ClCompile Include="vba\VBASys.cpp">
+      <Filter>VBA</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\XAudio2.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="vba\VBAD3D.cpp">
+      <Filter>VBA</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\hq\asm\hq3x32.cpp">
+      <Filter>Pixel Filter\HQ\3x_4x_asm</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\hq2x.cpp">
+      <Filter>Pixel Filter\HQ</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\2xSaI.cpp">
+      <Filter>Pixel Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\admame.cpp">
+      <Filter>Pixel Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\bilinear.cpp">
+      <Filter>Pixel Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\interframe.cpp">
+      <Filter>Pixel Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\pixel.cpp">
+      <Filter>Pixel Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\scanline.cpp">
+      <Filter>Pixel Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="filters\simpleFilter.cpp">
+      <Filter>Pixel Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="video\Direct3D.cpp">
+      <Filter>Video</Filter>
+    </ClCompile>
+    <ClCompile Include="input\WP8Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="filters\hq\asm\hq3x_16.asm">
+      <Filter>Pixel Filter\HQ\3x_4x_asm</Filter>
+    </None>
+    <None Include="filters\hq\asm\hq3x_32.asm">
+      <Filter>Pixel Filter\HQ\3x_4x_asm</Filter>
+    </None>
+    <None Include="filters\hq\asm\hq4x_16.asm">
+      <Filter>Pixel Filter\HQ\3x_4x_asm</Filter>
+    </None>
+    <None Include="filters\hq\asm\hq4x_32.asm">
+      <Filter>Pixel Filter\HQ\3x_4x_asm</Filter>
+    </None>
+    <None Include="filters\hq\asm\macros.mac">
+      <Filter>Pixel Filter\HQ\3x_4x_asm</Filter>
+    </None>
+    <None Include="filters\2xSaImmx.asm">
+      <Filter>Pixel Filter</Filter>
+    </None>
+  </ItemGroup>
+</Project>
